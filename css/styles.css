@@ -47,8 +47,17 @@ body{
 
 #customer{
     border-radius: 30% 0 30% 0;
-    width: 15%;
+    width: 25%;
     padding: 20px;
+}
+
+@media (max-width: 991px) {
+    #customer{
+        
+        width: 40%;
+        
+    }
+    
 }
 
 .features{
@@ -111,6 +120,9 @@ h2{
     text-align: center;
 }
 
+
+/* 991 */
+
 .round{
     border-radius: 50%;
     
@@ -125,6 +137,19 @@ h2{
     position: relative;
     text-align: center;
     background-color: #ef8172;
+    
+}
+
+@media (max-width: 991px) {
+    .round{
+        border-radius: 50%;
+        width: 50%;
+        position: relative;     
+        display: block;
+        transform: rotate(0);
+        margin-left: auto;
+        margin-right: auto;
+    }
     
 }
 
